@@ -3,7 +3,7 @@ const rpc = new rich.Client({ transport: "ipc" });
 const startTimestamp = new Date();
 
 const clientId = "692341410820653076";
-	
+
 rpc.on('ready', () => {
 	try {
 		rpc.setActivity({
