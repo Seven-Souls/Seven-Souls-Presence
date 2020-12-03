@@ -8,6 +8,6 @@
   },
   "author": "Seven Souls",
   "dependencies": {
-    "discord-rpc": "^3.1.0"
+    "discord-rpc": "^3.1.4"
   }
 }
