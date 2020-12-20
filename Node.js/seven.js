@@ -13,7 +13,7 @@ rpc.on('ready', () => {
 			largeImageKey: 'seven_large',
 			largeImageText: 'Rejoignez-nous dès maintenant !',
 			smallImageKey: 'seven',
-			smallImageText: 'Vous ne serez pas déçu !',
+			smallImageText: "L'efficacité, notre priorité !",
 			instance: false
 		})
 	} catch (e) {

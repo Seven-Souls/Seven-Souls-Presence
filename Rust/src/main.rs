@@ -12,7 +12,7 @@ fn main() {
         .assets(|ast| ast.large_image("seven_large")
             .small_image("seven")
             .large_text("Rejoignez-nous dès maintenant !")
-            .small_text("Vous ne serez pas déçu !"))
+            .small_text("L'efficacité, notre priorité !"))
         .timestamps(|tsp| tsp.start(started))
         .instance(false)
     )

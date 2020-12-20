@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 'large_image_key': 'seven_large',
                 'large_image_text': 'Rejoignez-nous dès maintenant !',
                 'small_image_key': 'seven',
-                'small_image_text': 'Vous ne serez pas déçu !'
+                'small_image_text': "L'efficacité, notre priorité !"
             }
         )
 
