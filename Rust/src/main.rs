@@ -7,8 +7,8 @@ fn main() {
     let started = SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_millis() as u64;
     let mut drpc: Client = Client::new(692341410820653076);
     drpc.start();
-    drpc.set_activity(|act| act.state("Bot Multifonction")
-        .details("Team Anti-Raid")
+    drpc.set_activity(|act| act.state("Prévention Anti-Raid")
+        .details("Bot Polyvalent")
         .assets(|ast| ast.large_image("seven_large")
             .small_image("seven")
             .large_text("Rejoignez-nous dès maintenant !")

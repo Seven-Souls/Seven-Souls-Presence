@@ -7,17 +7,17 @@ const clientId = "692341410820653076";
 rpc.on('ready', () => {
 	try {
 		rpc.setActivity({
-			details: "Team Anti-Raid",
-			state: "Bot Multifonction",
+			details: "Bot Polyvalent",
+			state: "Prévention Anti-Raid",
 			startTimestamp,
 			largeImageKey: 'seven_large',
 			largeImageText: 'Rejoignez-nous dès maintenant !',
 			smallImageKey: 'seven',
 			smallImageText: "L'efficacité, notre priorité !",
 			instance: false
-		})
+		});
 	} catch (e) {
-		return console.error(e)
+		return console.error(e);
 	}
 });
 

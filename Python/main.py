@@ -30,8 +30,8 @@ if __name__ == '__main__':
 
         discord_rpc.update_presence(
             **{
-                'details': 'Team Anti-Raid',
-                'state': 'Bot Multifonction',
+                'details': 'Bot Polyvalent',
+                'state': 'Prévention Anti-Raid',
                 'start_timestamp': start,
                 'large_image_key': 'seven_large',
                 'large_image_text': 'Rejoignez-nous dès maintenant !',
