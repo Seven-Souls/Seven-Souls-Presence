@@ -14,11 +14,11 @@ rpc.on('ready', () => {
 			largeImageText: "Rejoignez-nous dès maintenant !",
 			smallImageKey: "seven",
 			smallImageText: "L'efficacité, notre priorité !",
-			instance: false,
 			buttons: [
-			   { label: "Serveur de support", url: "https://discord.gg/UZXKbgN" },
-			   { label: "Le bot officiel", url: "https://discordapp.com/api/oauth2/authorize?client_id=528258150500007947&permissions=-1&scope=bot" }
-			]
+				{ label: "Le bot officiel", url: "https://discord.com/api/oauth2/authorize?client_id=528258150500007947&permissions=-1&scope=bot" },
+				{ label: "Serveur de support", url: "https://discord.gg/UZXKbgN" }
+			],
+			instance: false
 		});
 	} catch (e) {
 		return console.error(e);
